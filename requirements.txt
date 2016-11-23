@@ -1,1 +1,24 @@
 
+# main code
+aiohttp==1.0.5
+cchardet==1.1.0
+aiodns==1.1.1
+jsonschema==2.5.1
+psycopg2==2.6.2
+simplejson==3.8.2
+SQLAlchemy==1.0.15
+strict-rfc3339==0.7
+marshmallow==2.10.2
+
+# aws
+boto3==1.4.0
+
+# carrier api
+easypost==3.2.2
+jsonschema==2.5.1
+zeep==0.14.0
+simplejson==3.8.2
+strict-rfc3339==0.7 # required for jsonschema format datetime
+
+# orders api(s) shopify, magento, etc..
+git+https://github.com/VladimirPal/shopify_python_api.git
