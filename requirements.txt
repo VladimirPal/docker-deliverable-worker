@@ -1,3 +1,5 @@
+# server
+gunicorn==19.6.0
 
 # main code
 aiohttp==1.0.5
