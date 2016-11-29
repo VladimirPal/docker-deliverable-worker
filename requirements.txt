@@ -24,3 +24,6 @@ strict-rfc3339==0.7 # required for jsonschema format datetime
 
 # orders api(s) shopify, magento, etc..
 git+https://github.com/VladimirPal/shopify_python_api.git
+
+# notifications
+socketIO-client==0.7.1
